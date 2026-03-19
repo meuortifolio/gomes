@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos | Patrícia Gomes</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo"><a href="index.html">Patrícia Gomes</a></div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="projects.html">Projetos</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Meus Projetos</h1>
+            <div class="section-divider"></div>
+        </div>
+    </section>
+
+    <section class="project-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="sistema">Sistemas</button>
+                <button class="filter-btn" data-filter="seguranca">Segurança</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-list-section">
+        <div class="container">
+            <div class="projects-all-grid">
+                <!-- Projeto 1 -->
+                <div class="project-full-card" data-category="web">
+                    <div class="project-full-image">
+                        <img src="assets/css/images/projects/rendimento.png" alt="Website Rendimento">
+                        <div class="project-icons">
+                            <i class="fas fa-code"></i>
+                            <i class="fas fa-database"></i>
+                        </div>
+                    </div>
+                    <div class="project-full-content">
+                        <h3>Website para Alerta de Rendimento Escolar</h3>
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <p>Website que permite acompanhar rendimento escolar com alertas automáticos.</p>
+                        <div class="project-features">
+                            <h4><i class="fas fa-check-circle"></i> Funcionalidades:</h4>
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> Painel personalizado</li>
+                                <li><i class="fas fa-angle-right"></i> Alertas por email</li>
+                                <li><i class="fas fa-angle-right"></i> Histórico</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="project-full-card" data-category="sistema">
+                    <div class="project-full-image">
+                        <img src="assets/css/images/projects/WINDOWS.jpg" alt="Instalação SO">
+                        <div class="project-icons">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-linux"></i>
+                        </div>
+                    </div>
+                    <div class="project-full-content">
+                        <h3>Instalação e Configuração de SO</h3>
+                        <div class="project-tags">
+                            <span class="tag">Windows</span>
+                            <span class="tag">Linux</span>
+                        </div>
+                        <p>Instalação e otimização de sistemas operativos Windows e Linux.</p>
+                        <div class="project-features">
+                            <h4><i class="fas fa-check-circle"></i> Serviços:</h4>
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> Instalação Windows/Ubuntu</li>
+                                <li><i class="fas fa-angle-right"></i> Configuração de redes</li>
+                                <li><i class="fas fa-angle-right"></i> Backup</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="project-full-card" data-category="seguranca">
+                    <div class="project-full-image">
+                        <img src="assets/css/images/projects/CHAVE.png" alt="Segurança">
+                        <div class="project-icons">
+                            <i class="fas fa-shield-alt"></i>
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                    <div class="project-full-content">
+                        <h3>Ativação Segura de Aplicações</h3>
+                        <div class="project-tags">
+                            <span class="tag">Segurança</span>
+                            <span class="tag">Criptografia</span>
+                        </div>
+                        <p>Protocolos de segurança para ativação e uso de aplicações.</p>
+                        <div class="project-features">
+                            <h4><i class="fas fa-check-circle"></i> Medidas:</h4>
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> Autenticação 2FA</li>
+                                <li><i class="fas fa-angle-right"></i> Encriptação</li>
+                                <li><i class="fas fa-angle-right"></i> Políticas de senhas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Patrícia Gomes</p>
+            <p>Estudante de Informática & Gestão | Politécnico Texa</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
